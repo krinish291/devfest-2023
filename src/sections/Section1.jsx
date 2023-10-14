@@ -16,7 +16,7 @@ const Section1 = () => {
 		<main>
 			<a href="index.html">
 				<div className="logo">
-					<img src="../img/logo.png" alt="" />
+					<img src="../../src/img/logo.png" alt="" />
 				</div>
 			</a>
 			
@@ -171,7 +171,7 @@ const Section1 = () => {
 										<div className="col-md-3">
 											<div className="speaker-image">
 												<h6>Anna Kulis</h6>
-												<img src="../img/t1.jpg" alt="" />
+												<img src="../../src/img/t1.jpg" alt="" />
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -188,7 +188,7 @@ const Section1 = () => {
 										<div className="col-md-3 mt-5">
 											<div className="speaker-image">
 												<h6>Marco Furius</h6>
-												<img src="../img/t2.jpg" alt="" />
+												<img src="../../src/img/t2.jpg" alt="" />
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-5">
@@ -213,7 +213,7 @@ const Section1 = () => {
 										<div className="col-md-3">
 											<div className="speaker-image">
 												<h6>Ivan Kulis</h6>
-												<img src="../img/t3.jpg" alt="" />
+												<img src="../../src/img/t3.jpg" alt="" />
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -229,7 +229,7 @@ const Section1 = () => {
 										<div className="col-md-3 mt-5">
 											<div className="speaker-image">
 												<h6>Marco Furius</h6>
-												<img src="../img/t4.jpg" alt="" />
+												<img src="../../src/img/t4.jpg" alt="" />
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-5">
@@ -246,7 +246,7 @@ const Section1 = () => {
 										<div className="col-md-3 mt-5">
 											<div className="speaker-image">
 												<h6>Nia Johnson</h6>
-												<img src="../img/t5.jpg" alt="" />
+												<img src="../../src/img/t5.jpg" alt="" />
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-5">
@@ -265,7 +265,7 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12">
-											<img src="../img/logo.png" alt="" />
+											<img src="../../src/img/logo.png" alt="" />
 											<h6 className="mt-5 mb-3">Get in touch:</h6>
 											<p>office@aoide.com</p>
 											<p>+1 325 2532</p>
@@ -499,7 +499,7 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12">
-											<img src="../img/logo.png" alt="" />
+											<img src="../../src/img/logo.png" alt="" />
 											<h6 className="mt-5 mb-3">Get in touch:</h6>
 											<p>office@aoide.com</p>
 											<p>+1 325 2532</p>
@@ -535,86 +535,86 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">									
 										<div className="col-sm-6 col-md-4">	
-											<a href="img/gallery/1.jpg" data-fancybox="gallery">							
+											<a href="../../src/img/gallery/1.jpg" data-fancybox="gallery">							
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/1.jpg" alt="" />
+													<img src="../../src/img/gallery/1.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4 mt-sm-0">
-											<a href="img/gallery/2.jpg" data-fancybox="gallery">								
+											<a href="../../src/img/gallery/2.jpg" data-fancybox="gallery">								
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/2.jpg" alt="" />
+													<img src="../../src/img/gallery/2.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4 mt-md-0">
-											<a href="img/gallery/3.jpg" data-fancybox="gallery">									
+											<a href="../../src/img/gallery/3.jpg" data-fancybox="gallery">									
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/3.jpg" alt="" />
+													<img src="../../src/img/gallery/3.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/4.jpg" data-fancybox="gallery">							
+											<a href="../../src/img/gallery/4.jpg" data-fancybox="gallery">							
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/4.jpg" alt="" />
+													<img src="../../src/img/gallery/4.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/5.jpg" data-fancybox="gallery">								
+											<a href="../../src/img/gallery/5.jpg" data-fancybox="gallery">								
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/5.jpg" alt="" />
+													<img src="../../src/img/gallery/5.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/6.jpg" data-fancybox="gallery">								
+											<a href="../../src/img/gallery/6.jpg" data-fancybox="gallery">								
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/6.jpg" alt="" />
+													<img src="../../src/img/gallery/6.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/7.jpg" data-fancybox="gallery">							
+											<a href="../../src/img/gallery/7.jpg" data-fancybox="gallery">							
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/7.jpg" alt="" />
+													<img src="../../src/img/gallery/7.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">
-											<a href="img/gallery/8.jpg" data-fancybox="gallery">									
+											<a href="../../src/img/gallery/8.jpg" data-fancybox="gallery">									
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/8.jpg" alt="" />
+													<img src="../../src/img/gallery/8.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">
-											<a href="img/gallery/9.jpg" data-fancybox="gallery">									
+											<a href="../../src/img/gallery/9.jpg" data-fancybox="gallery">									
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/9.jpg" alt="" />
+													<img src="../../src/img/gallery/9.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/10.jpg" data-fancybox="gallery">							
+											<a href="../../src/img/gallery/10.jpg" data-fancybox="gallery">							
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/10.jpg" alt="" />
+													<img src="../../src/img/gallery/10.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/11.jpg" data-fancybox="gallery">								
+											<a href="../../src/img/gallery/11.jpg" data-fancybox="gallery">								
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/11.jpg" alt="" />
+													<img src="../../src/img/gallery/11.jpg" alt="" />
 												</div>
 											</a>
 										</div>									
 										<div className="col-sm-6 col-md-4 mt-4">	
-											<a href="img/gallery/12.jpg" data-fancybox="gallery">							
+											<a href="../../src/img/gallery/12.jpg" data-fancybox="gallery">							
 												<div className="img-wrap gallery">
-													<img src="../img/gallery/12.jpg" alt="" />
+													<img src="../../src/img/gallery/12.jpg" alt="" />
 												</div>
 											</a>
 										</div>
@@ -633,10 +633,10 @@ const Section1 = () => {
 										</div>
 										<div className="col-lg-9 mt-4 mt-lg-0">
 											<div className="sponsors">
-												<img src="../img/logos/white1.png" alt="" />
-												<img src="../img/logos/white2.png" alt="" />
-												<img className="mt-3 mt-md-0" src="img/logos/white3.png" alt="" />
-												<img className="mt-3 mt-md-0" src="img/logos/white4.png" alt="" />
+												<img src="../../src/img/logos/white1.png" alt="" />
+												<img src="../../src/img/logos/white2.png" alt="" />
+												<img className="mt-3 mt-md-0" src="../../src/img/logos/white3.png" alt="" />
+												<img className="mt-3 mt-md-0" src="../../src/img/logos/white4.png" alt="" />
 											</div>
 										</div>									
 										<div className="col-lg-3 mt-5">
@@ -644,18 +644,18 @@ const Section1 = () => {
 										</div>
 										<div className="col-lg-9 mt-4 mt-lg-5">
 											<div className="sponsors">
-												<img src="../img/logos/white5.png" alt="" />
-												<img src="../img/logos/white6.png" alt="" />
-												<img className="mt-3 mt-md-0" src="img/logos/white7.png" alt="" />
-												<img className="mt-3 mt-md-0" src="img/logos/white8.png" alt="" />
-												<img className="mt-3" src="img/logos/white9.png" alt="" />
-												<img className="mt-3" src="img/logos/white10.png" alt="" />
-												<img className="mt-3" src="img/logos/white11.png" alt="" />
-												<img className="mt-3" src="img/logos/white1.png" alt="" />
-												<img className="mt-3" src="img/logos/white2.png" alt="" />
-												<img className="mt-3" src="img/logos/white3.png" alt="" />
-												<img className="mt-3" src="img/logos/white4.png" alt="" />
-												<img className="mt-3" src="img/logos/white6.png" alt="" />
+												<img src="../../src/img/logos/white5.png" alt="" />
+												<img src="../../src/img/logos/white6.png" alt="" />
+												<img className="mt-3 mt-md-0" src="../../src/img/logos/white7.png" alt="" />
+												<img className="mt-3 mt-md-0" src="../../src/img/logos/white8.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white9.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white10.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white11.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white1.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white2.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white3.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white4.png" alt="" />
+												<img className="mt-3" src="../../src/img/logos/white6.png" alt="" />
 											</div>
 										</div>
 									</div>
@@ -665,7 +665,7 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12">
-											<img src="../img/logo.png" alt="" />
+											<img src="../../src/img/logo.png" alt="" />
 											<h6 className="mt-5 mb-3">Get in touch:</h6>
 											<p>office@aoide.com</p>
 											<p>+1 325 2532</p>
@@ -702,7 +702,7 @@ const Section1 = () => {
 									<div className="row">
 										<div className="col-md-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/1.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/1.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Alex Andrews</small></p>
 												<a href="#"><h6 className="px-4 mb-3">We want to share with you our mood after selection.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -711,7 +711,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4 mt-md-0">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/2.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/2.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Sleep, code, eat, travel. Repeat. Sleep, code...</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -720,7 +720,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4 mt-md-0">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/3.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/3.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Frank Furius</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Don’t get lost quoting your next projects.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -729,7 +729,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/4.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/4.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Sandra Furius</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Don´t give up, keep on focus all the time.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -738,7 +738,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/5.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/5.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Moments from a life. Day of photography.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -747,7 +747,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/6.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/6.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Frank Furius</small></p>
 												<a href="#"><h6 className="px-4 mb-3">The golden rule of modern webdesign.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -756,7 +756,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/7.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/7.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Alex Andrews</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Form and content together.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -765,7 +765,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/8.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/8.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Pretty much how you'll see it.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -774,7 +774,7 @@ const Section1 = () => {
 										</div>
 										<div className="col-md-4 mt-4">
 											<div className="blog-wrap pb-4">
-												<a href="#"><img src="../img/blog/9.jpg" alt="" /></a>
+												<a href="#"><img src="../../src/img/blog/9.jpg" alt="" /></a>
 												<p className="px-4 pt-4 mb-1"><small>by Sandra Furius</small></p>
 												<a href="#"><h6 className="px-4 mb-3">Moments from a life.</h6></a>
 												<p className="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
@@ -788,7 +788,7 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12">
-											<img src="../img/logo.png" alt="" />
+											<img src="../../src/img/logo.png" alt="" />
 											<h6 className="mt-5 mb-3">Get in touch:</h6>
 											<p>office@aoide.com</p>
 											<p>+1 325 2532</p>
@@ -897,7 +897,7 @@ const Section1 = () => {
 								<div className="container">
 									<div className="row">
 										<div className="col-md-12">
-											<img src="../img/logo.png" alt="" />
+											<img src="../../src/img/logo.png" alt="" />
 											<h6 className="mt-5 mb-3">Get in touch:</h6>
 											<p>office@aoide.com</p>
 											<p>+1 325 2532</p>
