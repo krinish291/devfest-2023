@@ -68,7 +68,7 @@
 			<!-- Nav and Logo
 			================================================== -->
 			
-			<a href="index.html">
+			<a href="index.php">
 				<div class="logo">
 					<img src="img/logo.png" alt="">
 				</div>
@@ -130,28 +130,28 @@
 					</ul>
 				</div>
 				<svg class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800">
-					<defs>
-						<linearGradient id="gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0" stop-color="#222222"/>
-							<stop offset="1" stop-color="#000000"/>
-						</linearGradient>
-						<linearGradient id="gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0" stop-color="#222222"/>
-							<stop offset="1" stop-color="#000000"/>
-						</linearGradient>
-						<linearGradient id="gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0" stop-color="#222222"/>
-							<stop offset="1" stop-color="#000000"/>
-						</linearGradient>
-						<linearGradient id="gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0" stop-color="#222222"/>
-							<stop offset="1" stop-color="#000000"/>
-						</linearGradient>
-						<linearGradient id="gradient-5" x1="0%" y1="0%" x2="100%" y2="100%">
-							<stop offset="0" stop-color="#222222"/>
-							<stop offset="1" stop-color="#000000"/>
-						</linearGradient>
-					</defs>
+                    <defs>
+                        <linearGradient id="gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0" stop-color="#f19872"></stop>
+                            <stop offset="1" stop-color="#e86c9a"></stop>
+                        </linearGradient>
+                        <linearGradient id="gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0" stop-color="#0947db"></stop>
+                            <stop offset="1" stop-color="#07d89d"></stop>
+                        </linearGradient>
+                        <linearGradient id="gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0" stop-color="#ee2d29"></stop>
+                            <stop offset="1" stop-color="#f8ae2c"></stop>
+                        </linearGradient>
+                        <linearGradient id="gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0" stop-color="#3a3d98"></stop>
+                            <stop offset="1" stop-color="#6f22b9"></stop>
+                        </linearGradient>
+                        <linearGradient id="gradient-5" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0" stop-color="#9d316e"></stop>
+                            <stop offset="1" stop-color="#de2d3e"></stop>
+                        </linearGradient>
+                    </defs>
 					<g class="blob-1">
 						<path d="M 382.9,69.64 C 375.1,14.22 296.4,-55.5 243.8,-46.79 191.2,-38.08 156.2,-36.94 118.6,-50.49 80.98,-64.04 52.11,-60.24 17.7,-25.44 -16.71,9.355 -52.82,94.93 -55.27,139.3 -57.72,183.7 -49.76,192.9 -19.05,201.3 11.66,209.7 54.92,201.4 92.87,229.8 130.8,258.2 166.4,326.2 204.1,345.9 241.8,365.6 259.2,351.7 284.3,318.5 309.4,285.3 344.5,223.8 362.8,182.2 381.1,140.6 390.7,125.1 382.9,69.64 Z" class="M 5153,15.13 C 5039,-791.7 3862,-1807 3080,-1680 2294,-1552 1772,-1536 1211,-1733 649,-1930 218.2,-1875 -295.2,-1369 -807.6,-862 -1347,382.9 -1383,1028 -1420,1675 -1302,1809 -843.9,1931 -385.4,2053 260.6,1933 826.6,2345 1391,2758 1924,3749 2487,4035 3049,4321 3308,4119 3682,3635 4058,3153 4581,2258 4854,1653 5127,1047 5271,821 5153,15.13 Z"/>
 						<path d="M 334.7,65.61 C 325.3,7.593 270.9,-34.46 218.5,-24.5 172.3,-15.71 125.4,-34.55 78.72,-32.93 47.06,-31.83 19.45,-9.456 0.2296,18.39 -25.16,55.18 -48.95,99.72 -44.87,147.7 -42.59,174.6 -14.84,187.6 8.083,186.8 43.43,185.5 81.49,185.3 113.3,207.7 149.3,233 174.3,278.3 216.4,291.8 245.2,301 273.1,277.4 290.9,252.8 328.2,201.4 345.4,131.6 334.7,65.61 Z" class="M 4434,-44.03 C 4293,-887.2 3482,-1499 2701,-1354 2012,-1227 1312,-1500 615.5,-1477 142.6,-1462 -269,-1137 -555.8,-730.8 -935.1,-195.7 -1289,452.3 -1230,1150 -1194,1541 -780,1732 -438.8,1719 88.59,1702 657.1,1697 1131,2023 1670,2392 2042,3051 2671,3246 3100,3381 3516,3037 3782,2680 4338,1933 4594,916 4434,-44.03 Z"/>
