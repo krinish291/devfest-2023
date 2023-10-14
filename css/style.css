@@ -99,7 +99,7 @@ h6, .h6 {
 	background-color: rgba(0,0,0,0.7);
 }
 ::-moz-selection {
-	background-color: #rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
 }
 
 ::selection {
@@ -357,7 +357,7 @@ a.ticket-link:active .pulse{
 .pulse {
 	display: inline-block;
 	height: 36px;
-	-webkit-animation: pulse 1s linear infinite;9
+	-webkit-animation: pulse 1s linear infinite;
 	animation: pulse 1s linear infinite;
 }
 @keyframes "pulse" {
@@ -498,7 +498,7 @@ body {
 }
 
 /* Color schemes */
-.aoide {
+.devfest {
 	--color-text: #fff;
 	--color-bg: #000;
 	--color-link: #fff;
@@ -1230,7 +1230,7 @@ ul.countdown li p {
 	position: relative;
 	display: block;
 	color: #f8ae2c;
-	font-family: FontAwesome;
+	font-family: 'FontAwesome';
 	font-size: 24px;
 	text-align: left;
     transition: all 200ms linear;

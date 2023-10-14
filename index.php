@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+require __DIR__ . '/vendor/autoload.php';
+?>
+
+<!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]>
 <!--><html class="no-js" lang="en"><!--<![endif]-->
@@ -7,7 +11,7 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Aoide</title>
+	<title>Devfest 2023</title>
 	<meta name="description"  content="Event Template" />
 	<meta name="author" content="IG Design">
 	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
@@ -57,11 +61,9 @@
 </script> 	
 	
 </head>
-<body class="aoide">
+<body class="devfest">
 <!--
 TODO (@knightkill)
-- Hero image change
-- Color change to Google Colors
 - Logo change
 - Favicon changes
 - Ticket changes
@@ -70,6 +72,8 @@ TODO (@knightkill)
 - Title update
 - Add Sponsors Marquee
 - Add Sponsors Button
+- Hero image change
+- Color change to Google Colors
 - Add confettis on event start (Non-necessary)
 - Instamojo integration (Non-necessary)
 - Back History (Non-necessary)
