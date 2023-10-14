@@ -168,11 +168,7 @@ TODO (@knightkill)
 				<p>Cruise Terminal, 37 Shing Road, Hong Kong</p>
 			</div>
 			
-			<div class="social-fixed">
-				<a href="#">twitter</a>
-				<a href="#">facebook</a>
-				<a href="#">behance</a>
-			</div>
+			<?php include 'templates/socials.php'?>
 			
 		</main>
 		
