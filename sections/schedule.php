@@ -10,10 +10,10 @@ Makeup
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="content__title">schedule &amp; pass</h2>
+                            <h2 class="content__title">schedule</h2>
                         </div>
                         <div class="col-lg-4 mt-3">
-                            <h3 class="content__subtitle">The rapid handle injects into the bashful lift.</h3>
+                            <h3 class="content__subtitle">The fun start at</h3>  
                         </div>
                     </div>
                 </div>
@@ -23,11 +23,12 @@ Makeup
                     <div class="row">
                         <!-- 1st day start -->
                         <div class="offset-md-3 col-md-9">
-                            <h4>saturday 27 july 2019</h4>
+                            <!-- <h4>saturday 27 july 2019</h4> -->
+                            <h4>To be announced soon</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
 
-                        <div class="col-md-3">
+                        <!-- <div class="col-md-3">
                             <div class="schedule-time mb-4">
                                 <p>15:00 pm - 17:00 pm</p>
                             </div>
@@ -43,10 +44,10 @@ Makeup
                                 <p><strong>ANNA KULIS</strong> - Create a Database Cluster in the Cloud With MongoDB Atlas</p>
                                 <p><strong>MARCO FURIUS</strong> - Angular Authentication With JWT</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- 1st day end -->
                         <!-- 2nd day start -->
-                        <div class="offset-md-3 col-md-9 mt-5">
+                        <!-- <div class="offset-md-3 col-md-9 mt-5">
                             <h4>sunday 28 july 2019</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
@@ -108,10 +109,10 @@ Makeup
                                 <p><strong>IVAN JELIC</strong> - Training an Image Classification Model With Create ML</p>
                                 <p><strong>NIA JOHNSON</strong> - Practical Test-Driven Development</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- 2nd day end -->
                         <!-- 3rd day start -->
-                        <div class="offset-md-3 col-md-9 mt-5">
+                        <!-- <div class="offset-md-3 col-md-9 mt-5">
                             <h4>monday 29 july 2019</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
@@ -132,10 +133,10 @@ Makeup
                                 <p><strong>ANNA KULIS</strong> - Create a Database Cluster in the Cloud With MongoDB Atlas</p>
                                 <p><strong>MARCO FURIUS</strong> - Angular Authentication With JWT</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- 3rd day end -->
                         <!-- 4th day start -->
-                        <div class="offset-md-3 col-md-9 mt-5">
+                        <!-- <div class="offset-md-3 col-md-9 mt-5">
                             <h4>tuesday 30 july 2019</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
@@ -156,7 +157,7 @@ Makeup
                                 <p><strong>ANNA KULIS</strong> - Create a Database Cluster in the Cloud With MongoDB Atlas</p>
                                 <p><strong>MARCO FURIUS</strong> - Angular Authentication With JWT</p>
                             </div>
-                        </div>
+                        </div> -->
                         <!-- 4th day end -->
                     </div>
                 </div>
@@ -165,7 +166,7 @@ Makeup
                 <div class="container">
                     <div class="row">
                         <!-- 1st day start -->
-                        <div class="offset-md-3 col-md-9">
+                        <!-- <div class="offset-md-3 col-md-9">
                             <h4>ticket information</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
@@ -220,7 +221,7 @@ Makeup
                                 <p class="mt-2 mb-5 mb-sm-0"><em></em> speakers support</p>
                                 <a href="#" class="btn-pass-4">get ticket - $125</a>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
