@@ -87,9 +87,9 @@
 		//Countdown
 		
         $('.countdown').downCount({
-            date: '25/11/2023 10:00:00'
+            date: '07/27/2019 12:00:00'
         }, function () {
-            // TODO: Add Confettis on Count down
+            alert('WOOT WOOT, done!');
         });
 
 		
