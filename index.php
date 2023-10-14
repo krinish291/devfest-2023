@@ -7,24 +7,23 @@
 	<!-- Basic Page Needs
 	================================================== -->
 	<meta charset="utf-8">
-	<title>Aoide</title>
-	<meta name="description"  content="Event Template" />
-	<meta name="author" content="IG Design">
-	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
-	<meta property="og:title" content="Event Template" />
+	<title>Devfest 2023 - GDG Baroda</title>
+	<meta name="description"  content="GDG Baroda Devfest 2023" />
+	<meta name="author" content="GDG Baroda Team">
+    <meta property="og:title" content="GDG Baroda Devfest 2023" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="" />
 	<meta property="og:image" content="" />
 	<meta property="og:image:width" content="470" />
 	<meta property="og:image:height" content="246" />
 	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="Event Template" />
+	<meta property="og:description" content="Devfest 2023 promotional site for GDG Baroda" />
 	<meta name="twitter:card" content="" />
 	<meta name="twitter:site" content="" />
-	<meta name="twitter:domain" content="http://ivang-design.com/" />
+	<meta name="twitter:domain" content="https://devfest.gdgbaroda.com/" />
 	<meta name="twitter:title" content="" />
-	<meta name="twitter:description" content="Event Template" />
-	<meta name="twitter:image" content="http://ivang-design.com/" />
+	<meta name="twitter:description" content="GDG Baroda Devfest 2023" />
+	<meta name="twitter:image" content="https://devfest.gdgbaroda.com/" />
 
 	<!-- Mobile Specific Metas
 	================================================== -->
@@ -57,7 +56,7 @@
 </script> 	
 	
 </head>
-<body class="aoide">
+<body class="devfest">
 <!--
 TODO (@knightkill)
 - Hero image change
@@ -85,7 +84,7 @@ TODO (@knightkill)
 			
 			<a href="index.php">
 				<div class="logo">
-					<img src="img/logo.png" alt="">
+					<img src="img/logo.svg" alt="">
 				</div>
 			</a>
 			
@@ -118,13 +117,12 @@ TODO (@knightkill)
 					<a href="#" class="menu__item">Sponsor<div class="empty-space">-</div><div class="empty-space">-</div></a>
 					<a href="#" class="menu__item">Schedule<div class="empty-space">-</div></a>
 					<a href="#" class="menu__item">Team<div class="empty-space">-</div></a>
-
 				</nav>
 				<div class="event-time">
 					<div class="section">
-						<div class="hero-main-title">Bringing Leaders Together</div>
+						<div class="hero-main-title">Welcome to DevFest Baroda 2023</div>
 						<div class="hero-title">Nov. 25</div>
-						<div class="hero-subtitle"><span>2</span><span>0</span><span>2</span><span>3</span></div>
+						<div class="hero-subtitle">2023</div>
 					</div>
 					<ul class="countdown">
 						<li> 
@@ -144,6 +142,9 @@ TODO (@knightkill)
 							<p class="seconds_ref">seconds</p>
 						</li>
 					</ul>
+                    <div class="speaker-btn">
+                        <a class="btn btn-dark">Apply to be a Speaker!</a>
+                    </div>
 				</div>
 				<?php include "templates/scene.php" ?>
 			</div>

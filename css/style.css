@@ -301,13 +301,13 @@ p {
 .logo {
 	position: absolute;
 	top: 22px;
-	left: 40px;
+	left: 50px;
 	display: block;
 	z-index: 3002;
 }
 .logo img {
 	display: block;
-	height: 30px;
+	height:60px;
 	width: auto;
 }
 a.ticket-link .pulse{
@@ -498,7 +498,7 @@ body {
 }
 
 /* Color schemes */
-.aoide {
+.devfest {
 	--color-text: #fff;
 	--color-bg: #000;
 	--color-link: #fff;
@@ -861,29 +861,7 @@ main::before {
 	font-family: 'Pinyon Script', cursive;
 	font-weight: 400;
 	z-index: 1;
-    -webkit-transform: translate(-3px, -10px);
-    -ms-transform: translate(-3px, -10px);
-    transform: translate(-3px, -10px);
-}
-.hero-subtitle span{
-	background: linear-gradient(45deg, #f19872, #e86c9a);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
-}
-.hero-subtitle span:nth-child(2) {
-	background: linear-gradient(45deg, #0947db, #07d89d);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
-}
-.hero-subtitle span:nth-child(3) {
-	background: linear-gradient(45deg, #ee2d29, #f8ae2c);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
-}
-.hero-subtitle span:nth-child(4) {
-	background: linear-gradient(45deg, #3a3d98, #6f22b9);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;	
+	margin-top: 10px;
 }
 
 
@@ -953,6 +931,19 @@ ul.countdown li p {
 	padding: 0;
 	margin: 0;
 	margin-top: 15px;
+}
+
+/* #Call for speaker button
+================================================== */
+
+.event-time > .speaker-btn {
+	position: relative;
+	width: 100%;
+	max-width: 360px;
+	margin: 20px auto;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
 }
 
 /* #Pages
