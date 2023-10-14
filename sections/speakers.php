@@ -1,3 +1,11 @@
+<!--
+TODO
+- Update content
+- Remove excess speaker content
+    - Just keep
+- Add Coming soon to complete page
+-->
+
 <div class="content__inner">
     <div class="section full-height over-y-scroll" id="boxscroll-1">
         <div class="section" id="boxscroll-in-1">

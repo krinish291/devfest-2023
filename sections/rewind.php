@@ -1,3 +1,8 @@
+<!--
+TODO
+- Embed youtube video
+- Add Carousel (Non-necessary)
+-->
 <div class="content__inner">
     <div class="section full-height over-y-scroll" id="boxscroll-3">
         <div class="section" id="boxscroll-in-3">

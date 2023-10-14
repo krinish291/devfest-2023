@@ -58,7 +58,22 @@
 	
 </head>
 <body class="aoide">
-
+<!--
+TODO
+- Hero image change
+- Color change to Google Colors
+- Logo change
+- Favicon changes
+- Ticket changes
+- Social links
+- Address change
+- Title update
+- Add Sponsors Marquee
+- Add Sponsors Button
+- Add confettis on event start (Non-necessary)
+- Instamojo integration (Non-necessary)
+- Back History (Non-necessary)
+-->
 		<div class="loader">
 			<div class="loader__figure"></div>
 		</div>
