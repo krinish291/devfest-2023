@@ -11,25 +11,30 @@ TODO (@Sarthak)
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="content__title">gallery &amp; sponsors</h2>
+                            <h2 class="content__title">retrospect</h2>
                         </div>
                         <div class="col-lg-4 mt-3">
-                            <h3 class="content__subtitle">The rapid handle injects into the bashful lift.</h3>
+                            <h3 class="content__subtitle">Take a Look Back 💫</h3>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="section padding-top-bottom">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4">
+                    <div class="container-two">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wsnh0GGxlp8?si=NU-XrkijUgJBYrRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+                            </iframe>
+                        </div>
+                    <!-- <div class="row"> -->
+                        <!-- <div class="col-sm-6 col-md-4">
                             <a href="img/gallery/1.jpg" data-fancybox="gallery">
                                 <div class="img-wrap gallery">
                                     <img src="img/gallery/1.jpg" alt="">
                                 </div>
                             </a>
-                        </div>
-                        <div class="col-sm-6 col-md-4 mt-4 mt-sm-0">
+                        </div> -->
+                        <!-- <div class="col-sm-6 col-md-4 mt-4 mt-sm-0">
                             <a href="img/gallery/2.jpg" data-fancybox="gallery">
                                 <div class="img-wrap gallery">
                                     <img src="img/gallery/2.jpg" alt="">
@@ -105,48 +110,8 @@ TODO (@Sarthak)
                                     <img src="img/gallery/12.jpg" alt="">
                                 </div>
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section padding-bottom-big">
-                <div class="container">
-                    <div class="row">
-                        <div class="offset-md-3 col-md-9">
-                            <h4>shaping the future</h4>
-                            <div class="title-page-line mt-4 mb-5"></div>
-                        </div>
-                        <div class="col-lg-3">
-                            <h6>strategic partners</h6>
-                        </div>
-                        <div class="col-lg-9 mt-4 mt-lg-0">
-                            <div class="sponsors">
-                                <img src="img/logos/white1.png" alt="">
-                                <img src="img/logos/white2.png" alt="">
-                                <img class="mt-3 mt-md-0" src="img/logos/white3.png" alt="">
-                                <img class="mt-3 mt-md-0" src="img/logos/white4.png" alt="">
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mt-5">
-                            <h6>project partners</h6>
-                        </div>
-                        <div class="col-lg-9 mt-4 mt-lg-5">
-                            <div class="sponsors">
-                                <img src="img/logos/white5.png" alt="">
-                                <img src="img/logos/white6.png" alt="">
-                                <img class="mt-3 mt-md-0" src="img/logos/white7.png" alt="">
-                                <img class="mt-3 mt-md-0" src="img/logos/white8.png" alt="">
-                                <img class="mt-3" src="img/logos/white9.png" alt="">
-                                <img class="mt-3" src="img/logos/white10.png" alt="">
-                                <img class="mt-3" src="img/logos/white11.png" alt="">
-                                <img class="mt-3" src="img/logos/white1.png" alt="">
-                                <img class="mt-3" src="img/logos/white2.png" alt="">
-                                <img class="mt-3" src="img/logos/white3.png" alt="">
-                                <img class="mt-3" src="img/logos/white4.png" alt="">
-                                <img class="mt-3" src="img/logos/white6.png" alt="">
-                            </div>
-                        </div>
-                    </div>
+                        </div> -->   
+                    <!-- </div> -->
                 </div>
             </div>
             <?php include 'templates/footer.php' ?>
