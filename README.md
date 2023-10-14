@@ -4,5 +4,14 @@ Developing Devfest site for GDG Baroda. <br>
 
 ## TODOs
 
-- [ ] Templating
+- [x] Templating
 - [ ] Format Content
+  - [ ] Sections
+    - [ ] Hero
+      - [ ] Submit Talk
+    - [ ] Speakers
+    - [ ] Glimpses (Video of 2022)
+    - [ ] Sponsors
+    - [ ] Tickets
+    - [ ] Schedule
+    - [ ] Team

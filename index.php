@@ -206,7 +206,6 @@
 			<div class="content content--reveal">
 				<?php include 'sections/speakers.php' ?>
 				<?php include "sections/schedule.php" ?>
-				<?php include "sections/pass.php" ?>
 				<div class="content__inner">
 					<div class="section full-height over-y-scroll" id="boxscroll-3">
 						<div class="section" id="boxscroll-in-3">
