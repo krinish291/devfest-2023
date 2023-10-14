@@ -359,6 +359,7 @@ a.ticket-link:active .pulse{
 	height: 36px;
 	-webkit-animation: pulse 1s linear infinite;
 	animation: pulse 1s linear infinite;
+	margin-top: 5px;
 }
 @keyframes pulse {
  0% {
