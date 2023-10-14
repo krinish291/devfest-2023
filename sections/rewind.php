@@ -1,5 +1,5 @@
 <!--
-TODO
+TODO (@Sarthak)
 - Embed youtube video
 - Add Carousel (Non-necessary)
 -->

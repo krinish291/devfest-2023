@@ -1,5 +1,5 @@
 <!--
-TODO
+TODO (@krinish)
 - Update content
 - Remove excess speaker content
     - Just keep

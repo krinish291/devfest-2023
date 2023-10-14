@@ -1,5 +1,5 @@
 <!--
-TODO
+TODO (@knightkill)
 - Add Sponsor cards
     - Add Ticket component UI
 -->

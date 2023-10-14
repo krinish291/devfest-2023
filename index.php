@@ -59,7 +59,7 @@
 </head>
 <body class="aoide">
 <!--
-TODO
+TODO (@knightkill)
 - Hero image change
 - Color change to Google Colors
 - Logo change
