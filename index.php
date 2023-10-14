@@ -139,28 +139,28 @@ TODO (@knightkill)
 						</li>
 					</ul>
                     <div class="speaker-btn">
-                        <a class="btn btn-dark">Apply to be a Speaker!</a>
+                        <a class="btn btn-dark" href="#">Apply to be a Speaker!</a>
                     </div>
 				</div>
-				<?php include "templates/scene.php" ?>
+                <?php include "templates/scene.php" ?>
 			</div>
 			
 			<!-- Primary Page Layout
 			================================================== -->
 	
 			<div class="content content--reveal">
+				<button class="content__close"></button>
 				<?php include 'sections/speakers.php' ?>
 				<?php include "sections/rewind.php" ?>
 				<?php include "sections/sponsors.php" ?>
 				<?php include "sections/schedule.php" ?>
 				<?php include "sections/team.php" ?>
-				<button class="content__close"></button>
 			</div>
 			
 			<div class="location-fixed">
 				<p>Cruise Terminal, 37 Shing Road, Hong Kong</p>
 			</div>
-			
+
 			<?php include 'templates/socials.php'?>
 			
 		</main>

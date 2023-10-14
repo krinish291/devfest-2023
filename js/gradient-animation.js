@@ -14,7 +14,7 @@
 			timeout = setTimeout(later, wait);
 			if (callNow) func.apply(context, args);
 		};
-    };
+    }
 
     class Blob {
         constructor(el, options) {
@@ -155,6 +155,13 @@
 
     DOM.ctrlBack.addEventListener('click', () => close());
 
+    window.addEventListener('popstate', function(event) {
+        if (this.isOpen) {
+            event.preventDefault();
+            close();
+        }
+    });
+
     let current;
     const open = (pos) => {
         this.isOpen = true;
@@ -185,7 +192,6 @@
                 opacity: [0,1]
             });
         });
-
         blobs.filter(el => el != currentBlob).forEach(blob => blob.hide());
     };
 
@@ -239,7 +245,7 @@
 		navigate(ev.target);
 	}));
 	document.addEventListener('keydown', (ev) => {
-		const keyCode = ev.keyCode || ev.which;
+		/*const keyCode = ev.keyCode || ev.which;
 		let linkEl;
 		if ( keyCode === 37 ) {
 			linkEl = current > 0 ? navdemos[current-1] : navdemos[total-1];
@@ -250,7 +256,7 @@
 		else {
 			return false;
 		}
-		navigate(linkEl);
+		navigate(linkEl);*/
 	});
 }
 

@@ -11,7 +11,7 @@ TODO (@Sarthak)
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="content__title">retrospect</h2>
+                            <h2 class="content__title">rewind</h2>
                         </div>
                         <div class="col-lg-4 mt-3">
                             <h3 class="content__subtitle">Take a Look Back 💫</h3>

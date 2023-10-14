@@ -303,16 +303,20 @@ p {
 	top: 22px;
 	left: 50px;
 	display: block;
+	justify-content: center;
+	align-items: center;
 	z-index: 3002;
 }
 .logo img {
 	display: block;
-	height:60px;
+	height: 40px;
 	width: auto;
+	padding: 8px 4px;
+	background-color: #1e1e1e;
 }
 a.ticket-link .pulse{
     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 }
 a.ticket-link:hover .pulse{
     -webkit-transition: all 300ms linear;
@@ -325,6 +329,11 @@ a.ticket-link:active .pulse{
     transition: all 300ms linear; 
 	color: #f8ae2c;
 }
+
+a.ticket-link .pulse svg{
+	transform: rotate(-45deg);
+}
+
 .ticket{
 	position: absolute;
 	top: 22px;
@@ -361,7 +370,7 @@ a.ticket-link:active .pulse{
 	animation: pulse 1s linear infinite;
 	margin-top: 5px;
 }
-@keyframes pulse {
+@keyframes "pulse" {
  0% {
     -webkit-transform: scale(1);
    	-moz-transform: scale(1);
@@ -385,7 +394,7 @@ a.ticket-link:active .pulse{
  }
 
 }
-@-webkit-keyframes pulse {
+@-webkit-keyframes "pulse" {
  0% {
    -webkit-transform: scale(1);
    transform: scale(1);
@@ -406,7 +415,7 @@ a.ticket-link:active .pulse{
 	bottom: 30px;
 	left: 20px;
 	display: block;
-	z-index: 3001;
+	z-index: 10001;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
 }
@@ -425,7 +434,7 @@ a.ticket-link:active .pulse{
 	color: #fff;
 	display: inline-block;
     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 }
 .social-fixed a:after{
 	position: absolute;
@@ -437,7 +446,7 @@ a.ticket-link:active .pulse{
 	z-index: -1;
 	background: linear-gradient(45deg, #0947db, #07d89d);	
     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
 }
 .social-fixed a:hover:after{
 	width: 100%;
@@ -764,10 +773,9 @@ main::before {
 	z-index: 4;
 	display: flex;
 	flex-direction: column;
-	margin: 0 40vw 0 0;
 	font-size: 2.8vw;
 	padding: 0;
-	margin-top: -50px;
+	margin: -50px 40vw 0 0;
 	align-items: flex-start;
 }
 .menu__item {
@@ -1004,7 +1012,8 @@ ul.countdown li p {
 	color: #fff;
 	display: inline-block;
     -webkit-transition: all 300ms linear;
-    transition: all 300ms linear; 
+    transition: all 300ms linear;
+	z-index: 400;
 }
 .social-team a:after{
 	position: absolute;
@@ -1230,7 +1239,7 @@ ul.countdown li p {
 	position: relative;
 	display: block;
 	color: #f8ae2c;
-	font-family: FontAwesome;
+	font-family: 'FontAwesome';
 	font-size: 24px;
 	text-align: left;
     transition: all 200ms linear;
@@ -1639,9 +1648,8 @@ ul.countdown li p {
 		transform: translateX(-50%);
 	}
 	.menu {
-		margin: 0 0 0 0;
 		font-size: 4vw;
-		margin-top: -160px;
+		margin: -160px 0 0;
 		align-items: center;
 	}
 	.menu__item {
