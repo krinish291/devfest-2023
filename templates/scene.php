@@ -1,24 +1,24 @@
 <svg class="scene" width="1440" height="800" preserveAspectRatio="xMinYMid slice" viewBox="0 0 1440 800">
     <defs>
-        <linearGradient id="gradient-1" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0" stop-color="#f19872"></stop>
-            <stop offset="1" stop-color="#e86c9a"></stop>
+        <linearGradient id="gradient-1" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#008744"></stop>
+            <stop offset="1" stop-color="#008744"></stop>
         </linearGradient>
-        <linearGradient id="gradient-2" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0" stop-color="#0947db"></stop>
-            <stop offset="1" stop-color="#07d89d"></stop>
+        <linearGradient id="gradient-2" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#0057e7"></stop>
+            <stop offset="1" stop-color="#0057e7"></stop>
         </linearGradient>
-        <linearGradient id="gradient-3" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0" stop-color="#ee2d29"></stop>
-            <stop offset="1" stop-color="#f8ae2c"></stop>
+        <linearGradient id="gradient-3" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#d62d20"></stop>
+            <stop offset="1" stop-color="#d62d20"></stop>
         </linearGradient>
-        <linearGradient id="gradient-4" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0" stop-color="#3a3d98"></stop>
-            <stop offset="1" stop-color="#6f22b9"></stop>
+        <linearGradient id="gradient-4" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#ffa700"></stop>
+            <stop offset="1" stop-color="#ffa700"></stop>
         </linearGradient>
-        <linearGradient id="gradient-5" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0" stop-color="#9d316e"></stop>
-            <stop offset="1" stop-color="#de2d3e"></stop>
+        <linearGradient id="gradient-5" x1="0%" y1="0%" x2="70%" y2="70%">
+            <stop offset="0" stop-color="#4486F4"></stop>
+            <stop offset="1" stop-color="#4486F4"></stop>
         </linearGradient>
     </defs>
     <g class="blob-1">

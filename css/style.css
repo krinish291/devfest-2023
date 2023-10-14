@@ -575,7 +575,7 @@ main::before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.8);  /* 0.5 indicates 50% opacity */
+	background: rgba(0, 0, 0, 0.4);  /* 0.5 indicates 50% opacity */
 	z-index: 1;
 }
 .content {
