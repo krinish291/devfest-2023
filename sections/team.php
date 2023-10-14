@@ -10,10 +10,10 @@ Makeup
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-                            <h2 class="content__title">latest press</h2>
+                            <h2 class="content__title">our team</h2>
                         </div>
                         <div class="col-lg-4 mt-3">
-                            <h3 class="content__subtitle">The rapid handle injects into the bashful lift.</h3>
+                            <h3 class="content__subtitle">Meet the minds behind GDG Baroda.</h3>
                         </div>
                     </div>
                 </div>
@@ -21,91 +21,46 @@ Makeup
             <div class="section padding-top padding-bottom-big">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/1.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Alex Andrews</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">We want to share with you our mood after selection.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4 mt-md-0">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/2.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Sleep, code, eat, travel. Repeat. Sleep, code...</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4 mt-md-0">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/3.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Frank Furius</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Don’t get lost quoting your next projects.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/4.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Sandra Furius</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Don´t give up, keep on focus all the time.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/5.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Moments from a life. Day of photography.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/6.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Frank Furius</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">The golden rule of modern webdesign.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/7.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Alex Andrews</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Form and content together.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/8.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Anna Kulis</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Pretty much how you'll see it.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <div class="blog-wrap pb-4">
-                                <a href="#"><img src="img/blog/9.jpg" alt=""></a>
-                                <p class="px-4 pt-4 mb-1"><small>by Sandra Furius</small></p>
-                                <a href="#"><h6 class="px-4 mb-3">Moments from a life.</h6></a>
-                                <p class="px-4">Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.</p>
-                                <a href="#"><div class="go-post pl-4 pt-4"><i class="fa fa-long-arrow-right"></i></div></a>
-                            </div>
-                        </div>
+                    <div class="col-md-3">
+						<div class="blog-wrap pb-4">
+							<a href="#"><img class="pro-img" src="./img/team/sarthak.jpg" alt=""></a>
+							<p class="px-4 pt-4 mb-1"><small></small></p>
+							<a href="#"><h6 class="px-4 mb-3">Sarthak Shah</h6></a>
+							<a href="#"><h6 class="px-4 mb-1">
+								<i class="bi bi-github mr-4">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+										<path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+									</svg>
+								</i>
+								<i class="bi bi-twitter">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+										<path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+									</svg>
+								</i>
+							</h6>
+							</a>
+						</div>
                     </div>
                 </div>
             </div>
-            <?php include 'templates/footer.php' ?>
+            <!-- <div class="section padding-top padding-bottom-big background-dark footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="img/logo.png" alt="">
+                            <h6 class="mt-5 mb-3">Get in touch:</h6>
+                            <p>office@aoide.com</p>
+                            <p>+1 325 2532</p>
+                        </div>
+                        <div class="col-md-12 mt-5 mb-5">
+                            <div class="title-page-line"></div>
+                        </div>
+                        <div class="col-md-12">
+                            <p><small>© 2019 Aoide is powered by IG Design. The property of their owners.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
             <!-- Page end -->
         </div>
     </div>
