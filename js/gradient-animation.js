@@ -110,7 +110,7 @@
         show() {
             setTimeout(() => this.intro(), 400);
         }
-    };
+    }
 
     window.Blob = Blob;
 

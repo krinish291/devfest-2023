@@ -22,11 +22,11 @@ TODO (@Sarthak)
             <div class="section padding-top-bottom">
                 <div class="container">
                     <div class="container-two">
-                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wsnh0GGxlp8?si=NU-XrkijUgJBYrRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wsnh0GGxlp8?si=NU-XrkijUgJBYrRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
-                            </iframe>
-                        </div>
-                    <!-- <div class="row"> -->
+                        </iframe>
+                    </div>
+                     <div class="row"> -->
                         <!-- <div class="col-sm-6 col-md-4">
                             <a href="img/gallery/1.jpg" data-fancybox="gallery">
                                 <div class="img-wrap gallery">
@@ -110,8 +110,8 @@ TODO (@Sarthak)
                                     <img src="img/gallery/12.jpg" alt="">
                                 </div>
                             </a>
-                        </div> -->   
-                    <!-- </div> -->
+                        </div>
+                    </div>
                 </div>
             </div>
             <?php include 'templates/footer.php' ?>
