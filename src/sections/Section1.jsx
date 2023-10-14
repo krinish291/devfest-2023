@@ -1,5 +1,11 @@
 import React from 'react'
 
+import "../css/bootstrap.min.css"
+import "../css/font-awesome.min.css"
+import "../css/style.css"
+import "../css/jquery.fancybox.min.css"
+import "../css/jquery.webui-popover.css"
+
 const Section1 = () => {
   return (
     <div className="aoide">
@@ -28,9 +34,9 @@ const Section1 = () => {
 			</a>
 			<div id="ticket-wrap">
 				<p>
-					one-day ticket <em>.........................</em> <span>$37</span><br>
-					two-days ticket <em>.....................</em> <span>$70</span><br>
-					three-days ticket <em>................</em> <span>$100</span><br>
+					one-day ticket <em>.........................</em> <span>$37</span><br />
+					two-days ticket <em>.....................</em> <span>$70</span><br />
+					three-days ticket <em>................</em> <span>$100</span><br />
 					four-days ticket <em>.................</em> <span>$125</span>
 				</p>
 				<a href="#">get ticket</a>
@@ -139,15 +145,10 @@ const Section1 = () => {
 					</g>
 				</svg>
 			</div>
-			
-			<!-- Primary Page Layout
-			================================================== -->
-	
 			<div className="content content--reveal">
 				<div className="content__inner">
 					<div className="section full-height over-y-scroll" id="boxscroll-1">
 						<div className="section" id="boxscroll-in-1">
-							<!-- Page start -->
 							<div className="section padding-top-big">
 								<div className="container">
 									<div className="row">
@@ -310,7 +311,7 @@ const Section1 = () => {
 												<p>15:00 pm - 17:00 pm</p>
 											</div>
 											<div className="schedule-place">
-												<p>Cruise Terminal<br>37 Shing Road<br>Hong Kong</p>
+												<p>Cruise Terminal<br />37 Shing Road<br />Hong Kong</p>
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -332,7 +333,7 @@ const Section1 = () => {
 												<p>13:00 pm - 15:00 pm</p>
 											</div>
 											<div className="schedule-place">
-												<p>Cruise Terminal<br>37 Shing Road<br>Hong Kong</p>
+												<p>Cruise Terminal<br />37 Shing Road<br />Hong Kong</p>
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -395,7 +396,7 @@ const Section1 = () => {
 												<p>15:00 pm - 17:00 pm</p>
 											</div>
 											<div className="schedule-place">
-												<p>Cruise Terminal<br>37 Shing Road<br>Hong Kong</p>
+												<p>Cruise Terminal<br />37 Shing Road<br />Hong Kong</p>
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -417,7 +418,7 @@ const Section1 = () => {
 												<p>15:00 pm - 17:00 pm</p>
 											</div>
 											<div className="schedule-place">
-												<p>Cruise Terminal<br>37 Shing Road<br>Hong Kong</p>
+												<p>Cruise Terminal<br />37 Shing Road<br />Hong Kong</p>
 											</div>
 										</div>
 										<div className="col-md-9 mt-4 mt-md-0">
@@ -435,7 +436,6 @@ const Section1 = () => {
 							<div className="section padding-bottom-big">
 								<div className="container">
 									<div className="row">
-										<!-- 1st day start -->
 										<div className="offset-md-3 col-md-9">
 											<h4>ticket information</h4>
 											<div className="title-page-line mt-4 mb-5"></div>
