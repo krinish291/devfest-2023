@@ -99,7 +99,7 @@ h6, .h6 {
 	background-color: rgba(0,0,0,0.7);
 }
 ::-moz-selection {
-	background-color: #rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
 }
 
 ::selection {
@@ -357,10 +357,10 @@ a.ticket-link:active .pulse{
 .pulse {
 	display: inline-block;
 	height: 36px;
-	-webkit-animation: pulse 1s linear infinite;9
+	-webkit-animation: pulse 1s linear infinite;
 	animation: pulse 1s linear infinite;
 }
-@keyframes "pulse" {
+@keyframes pulse {
  0% {
     -webkit-transform: scale(1);
    	-moz-transform: scale(1);
@@ -384,7 +384,7 @@ a.ticket-link:active .pulse{
  }
 
 }
-@-webkit-keyframes "pulse" {
+@-webkit-keyframes pulse {
  0% {
    -webkit-transform: scale(1);
    transform: scale(1);
@@ -562,7 +562,20 @@ main {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url('../img/background.jpg');
+	background-image: url('../img/team/hero2.jpg');
+	/*TODO: Change to audience imagery*/
+}
+
+
+main::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);  /* 0.5 indicates 50% opacity */
+	z-index: 1;
 }
 .content {
 	position: relative;
@@ -691,7 +704,6 @@ main {
 	left: 0;
 	width: 100%;
 	height: 100vh;
-	//pointer-events: none;
 	z-index: 3;
 }
 
@@ -1183,12 +1195,13 @@ ul.countdown li p {
 /* #Blog
 ================================================== */
 
+
 .blog-wrap{
 	position: relative;
 	width: 100%;
 	display: block;
-	border-radius: 5px;
-	border: 5px solid rgba(255,255,255,.5);
+	border-radius: 4.9%;
+	border: 2px solid rgba(255,255,255,.5);
 	background: linear-gradient(45deg, rgba(255,255,255,.04), rgba(255,255,255,.3));
 }
 .blog-wrap img{
@@ -1198,6 +1211,14 @@ ul.countdown li p {
 	-webkit-filter: grayscale(70%);
 	filter: grayscale(70%);
     transition: all 200ms linear;
+	border-top-left-radius: 5.5%;
+	border-top-right-radius: 5.5% ;
+}
+
+.pro-img{
+	height: 1rem;
+	width: 1rem;
+	overflow: hidden;
 }
 .blog-wrap img:hover{
 	-webkit-filter: grayscale(0);
@@ -1674,7 +1695,10 @@ ul.countdown li p {
 	}
 }
 
-
+.container-two{
+	width: 500px;
+	height: 281px;
+}
 
 
 
