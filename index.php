@@ -47,10 +47,12 @@
 			
 	<!-- Favicons
 	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
 	<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("");
 </script> 	
@@ -59,14 +61,14 @@
 <body class="devfest">
 <!--
 TODO (@knightkill)
-- Hero image change
-- Color change to Google Colors
-- Logo change
-- Favicon changes
+- Hero image change (Done)
+- Color change to Google Colors (Partial)
+- Logo change (Done)
+- Favicon changes (Done)
 - Ticket changes
-- Social links
-- Address change
-- Title update
+- Social links (done)
+- Address change (Done)
+- Title update (Done)
 - Add Sponsors Marquee
 - Add Sponsors Button
 - Add confettis on event start (Non-necessary)
