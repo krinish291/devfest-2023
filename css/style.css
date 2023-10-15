@@ -312,7 +312,7 @@ p {
 	height: 40px;
 	width: auto;
 	padding: 8px 4px;
-	background-color: #1e1e1e;
+	background-color: rgba(30, 30, 30, 0.7);
 }
 a.ticket-link .pulse{
     -webkit-transition: all 300ms linear;
@@ -472,7 +472,7 @@ a.ticket-link .pulse svg{
 	writing-mode: vertical-lr;
 	transform: rotate(180deg);
 }
-.location-fixed p {
+.location-fixed a {
 	position: relative;
 	margin: 0;
 	padding: 0;
@@ -481,7 +481,7 @@ a.ticket-link .pulse svg{
 	line-height: 20px;
 	letter-spacing: 1px;
 }
-.location-fixed p:before {
+.location-fixed a:before {
 	position: absolute;
 	content: '';
 	top: 0;
@@ -584,7 +584,7 @@ main::before {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background: rgba(0, 0, 0, 0.4);  /* 0.5 indicates 50% opacity */
+	background: rgba(0, 0, 0, 0.85);  /* 0.5 indicates 50% opacity */
 	z-index: 1;
 }
 .content {
@@ -828,7 +828,7 @@ main::before {
 
 .event-time {
 	position: absolute;
-	z-index: 2;
+	z-index: 10;
 	top: 50%;
 	left: 50%;
     -webkit-transform: translateY(-50%);
@@ -953,6 +953,7 @@ ul.countdown li p {
 	display: block;
 	text-align: center;
 	border-radius: 10px;
+	z-index: 3003;
 }
 
 /* #Pages
@@ -1541,6 +1542,12 @@ ul.countdown li p {
 .footer .title-page-line	{
 	opacity: 0.6;
 }
+
+.container-two iframe {
+	min-height: 400px;
+	width: 100%;
+	height: auto;
+}
 	
 
 /* #Media
@@ -1679,6 +1686,10 @@ ul.countdown li p {
 	.sponsors img {
 		width: calc(50% - 10px);
 	}
+
+	.container-two iframe {
+		min-height: 300px;
+	}
 }
 
 @media (max-width: 575px) {
@@ -1693,11 +1704,10 @@ ul.countdown li p {
 	.location-fixed{
 		display: none;
 	}
-}
 
-.container-two{
-	width: 500px;
-	height: 281px;
+	.container-two iframe {
+		min-height: 300px;
+	}
 }
 
 .copyright {

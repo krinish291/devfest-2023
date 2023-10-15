@@ -50,6 +50,6 @@ TODO (@krinish)
             </div>
             <!-- Page end -->
         </div>
-            <?php include 'templates/footer.php' ?>
+        <?php include 'templates/footer.php' ?>
     </div>
 </div>

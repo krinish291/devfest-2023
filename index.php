@@ -118,7 +118,12 @@ TODO (@knightkill)
 					<div class="section">
 						<div class="hero-main-title">Welcome to DevFest Baroda 2023</div>
 						<div class="hero-title">Nov. 25</div>
-						<div class="hero-subtitle">2023</div>
+						<div class="hero-subtitle">
+                            <span>2</span>
+                            <span>0</span>
+                            <span>2</span>
+                            <span>3</span>
+                        </div>
 					</div>
 					<ul class="countdown">
 						<li> 
@@ -139,7 +144,7 @@ TODO (@knightkill)
 						</li>
 					</ul>
                     <div class="speaker-btn">
-                        <a class="btn btn-dark" href="#">Apply to be a Speaker!</a>
+                        <a target="_blank" class="btn btn-dark" href="https://sessionize.com/">Apply to be a Speaker!</a>
                     </div>
 				</div>
                 <?php include "templates/scene.php" ?>
@@ -158,7 +163,7 @@ TODO (@knightkill)
 			</div>
 			
 			<div class="location-fixed">
-				<p>Cruise Terminal, 37 Shing Road, Hong Kong</p>
+				<a target="_blank" href="https://maps.app.goo.gl/EzVRXWKG9kNnrduv6">Hyatt Place, Nilamber Triumph, Vasna, Vadodara, Gujarat 390007</a>
 			</div>
 
 			<?php include 'templates/socials.php'?>
