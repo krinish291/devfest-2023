@@ -312,8 +312,8 @@ p {
 	height: 40px;
 	width: auto;
 	padding: 8px 4px;
-	background-color: rgba(30, 30, 30, 0.7);
-	border-radius: 8px;  /* Changed for slight rounded corners */
+	background-color: rgba(30, 30, 30);
+	border-radius: 8px;
 }
 a.ticket-link .pulse{
     -webkit-transition: all 300ms linear;
@@ -364,6 +364,34 @@ a.ticket-link .pulse svg{
 	fill: none;
 	stroke: currentColor;
 }
+
+.ticket-button {
+	position: absolute;
+	top: 22px;
+	right: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f8ae2c;  /* You can choose your own color */
+	color: #fff;
+	padding: 8px 16px;
+	border-radius: 4px;  /* Slightly rounded corners */
+	cursor: pointer;
+	z-index: 3002;
+}
+
+.ticket-button p {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.ticket-button:hover {
+	background-color: #d0880a;  /* Darker shade for hover */
+}
+
 .pulse {
 	display: inline-block;
 	height: 36px;
@@ -1679,10 +1707,7 @@ ul.countdown li p {
 	.scene .blob-4,
 	.scene .blob-5,
 	.scene .blob-6{
-		opacity: 0;
-	}
-	.content__inner {
-		background-color: #111;
+		opacity: 1;
 	}
 }
 
@@ -1733,10 +1758,6 @@ ul.countdown li p {
 	.sponsors img {
 		width: calc(50% - 10px);
 	}
-
-	.container-two iframe {
-		min-height: 300px;
-	}
 }
 
 @media (max-width: 575px) {
@@ -1750,10 +1771,6 @@ ul.countdown li p {
 	.social-fixed,
 	.location-fixed{
 		display: none;
-	}
-
-	.container-two iframe {
-		min-height: 300px;
 	}
 }
 
