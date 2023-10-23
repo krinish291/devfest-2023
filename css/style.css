@@ -1741,7 +1741,7 @@ ul.countdown li p {
 		transition: all 300ms linear;
 	}
 	.menu__item--showDeco:hover::before {
-		transform: scale3d(1,-1.4,1);
+		transform: scale3d(1,0,1);
 	}
 }
 

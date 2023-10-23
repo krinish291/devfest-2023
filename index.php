@@ -108,10 +108,10 @@ TODO (@knightkill)
 			<div class="content">
 				<nav class="menu">
 					<a href="#" class="menu__item">Conf<div class="empty-space">-</div>speakers</a>
-					<a href="#" class="menu__item">Rewind<div class="empty-space">-</div><div class="empty-space">-</div></a>
-					<a href="#" class="menu__item">Sponsor<div class="empty-space">-</div><div class="empty-space">-</div></a>
-					<a href="#" class="menu__item">Schedule<div class="empty-space">-</div></a>
-					<a href="#" class="menu__item">Team<div class="empty-space">-</div></a>
+					<a href="#" class="menu__item">Rewind</a>
+					<a href="#" class="menu__item">Sponsor</a>
+					<a href="#" class="menu__item">Schedule</a>
+					<a href="#" class="menu__item">Team</a>
 				</nav>
 				<div class="event-time">
 					<div class="section">
