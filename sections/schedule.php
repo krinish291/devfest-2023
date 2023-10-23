@@ -3,8 +3,8 @@ TODO (@krinish)
 Makeup
 -->
 <div class="content__inner">
-    <div class="section full-height over-y-scroll" id="boxscroll-2">
-        <div class="section" id="boxscroll-in-2">
+    <div class="section full-height over-y-scroll" id="boxscroll-4">
+        <div class="section" id="boxscroll-in-4">
             <!-- Page start -->
             <div class="section padding-top-big">
                 <div class="container">

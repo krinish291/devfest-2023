@@ -4,8 +4,8 @@ TODO (@Sarthak)
 - Add Carousel (Non-necessary)
 -->
 <div class="content__inner">
-    <div class="section full-height over-y-scroll" id="boxscroll-3">
-        <div class="section" id="boxscroll-in-3">
+    <div class="section full-height over-y-scroll" id="boxscroll-2">
+        <div class="section" id="boxscroll-in-2">
             <!-- Page start -->
             <div class="section padding-top-big">
                 <div class="container">

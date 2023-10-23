@@ -4,11 +4,12 @@
             <div class="col-md-12">
                 <img src="img/logo.svg" alt="">
                 <h6 class="mt-5 mb-3">Get in touch:</h6>
-                <p>office@aoide.com</p>
-                <p>+1 325 2532</p>
-            </div>
-            <div class="col-md-12 mt-5 mb-5">
-                <div class="title-page-line"></div>
+                <p class="social-footer">
+                    <a target="_blank" href="https://twitter.com/GDGBaroda">twitter</a>
+                    <a target="_blank" href="https://www.facebook.com/GDGBaroda">facebook</a>
+                    <a target="_blank" href="https://www.instagram.com/gdgbaroda/">instagram</a>
+                    <a target="_blank" href="https://www.linkedin.com/company/gdgbaroda">linkedin</a>
+                </p>
             </div>
             <div class="col-md-12 copyright">
                 <p><small>© 2023 GDG Baroda. All rights reserved.</small></p>

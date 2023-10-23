@@ -5,7 +5,6 @@ TODO (@krinish)
     - Just keep
 - Add Coming soon to complete page
 -->
-
 <div class="content__inner">
     <div class="section full-height over-y-scroll" id="boxscroll-1">
         <div class="section" id="boxscroll-in-1">
@@ -25,9 +24,10 @@ TODO (@krinish)
             <div class="section padding-top-bottom">
                 <div class="container">
                     <div class="row">
+                        <!-- 1st day start -->
                         <div class="offset-md-3 col-md-9">
-                            <!-- <h4>moderators</h4> -->
-                            <h4>The speaker list are not yet published</h4>
+                            <!-- <h4>saturday 27 july 2019</h4> -->
+                            <h4>To be announced soon</h4>
                             <div class="title-page-line mt-4 mb-5"></div>
                         </div>
                         <!-- <div class="col-md-3">
@@ -48,8 +48,8 @@ TODO (@krinish)
                     </div>
                 </div>
             </div>
+            <?php include 'templates/footer.php' ?>
             <!-- Page end -->
         </div>
-        <?php include 'templates/footer.php' ?>
     </div>
 </div>

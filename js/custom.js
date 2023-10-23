@@ -92,19 +92,6 @@
             //TODO: Add confetti on trigger
         });
 
-		
-		//Animated Icons
-		
-		var options = {
-		  duration: 150, 
-		  type: 'oneByOne',
-		  animTimingFunction: Vivus.EASE
-		};
-
-		var vivus = new Vivus('svg-ticket',	options, onComplete);
-
-		function onComplete() {}
-
 	});	
 	
 })(jQuery); 

@@ -1689,8 +1689,13 @@ ul.countdown li p {
 		margin-top: 15px;
 	}
 	.content__close {
-		top: 20px;
-		left: 50%;
+		padding: 30px 30px;
+		border-radius: 100%;
+		background-color: #555;
+		top: unset;
+		left: unset;
+		bottom: 30px;
+		right: 30px;
 		margin-left: -18px;
 		width: 36px;
 		height: 36px;
@@ -1708,6 +1713,12 @@ ul.countdown li p {
 	.scene .blob-5,
 	.scene .blob-6{
 		opacity: 1;
+	}
+
+	.social-footer a {
+		text-decoration: underline;
+		display: block;
+		line-height: 2;
 	}
 }
 
