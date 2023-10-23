@@ -105,12 +105,12 @@ TODO (@knightkill)
     </a>
     <div id="ticket-wrap">
         <p>
-            one-day ticket <em>.........................</em> <span>$37</span><br>
-            two-days ticket <em>.....................</em> <span>$70</span><br>
-            three-days ticket <em>................</em> <span>$100</span><br>
-            four-days ticket <em>.................</em> <span>$125</span>
+            Early Birds <em>.........................</em> <span>500 ₹</span><br>
+            Phase 1 <em>.....................</em> <span>600 ₹</span><br>
+            Phase 2 <em>................</em> <span>700 ₹</span><br>
+            Phase 3 <em>.................</em> <span>800 ₹</span>
         </p>
-        <a href="#">get ticket</a>
+        <a target="_blank" href="https://www.instamojo.com/">get ticket</a>
     </div>
 
     <div class="content">
@@ -165,7 +165,6 @@ TODO (@knightkill)
     <div class="content content--reveal">
         <button class="content__close"> </button>
         <?php include 'sections/speakers.php' ?>
-        <?php include "sections/rewind.php" ?>
         <?php include "sections/rewind.php" ?>
         <?php include "sections/sponsors.php" ?>
         <?php include "sections/schedule.php" ?>
