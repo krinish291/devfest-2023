@@ -20,11 +20,20 @@ TODO (@Sarthak)
                 </div>
             </div>
             <div class="section padding-top-bottom">
-                <div class="container">
-                    <div class="container-two">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/wsnh0GGxlp8?si=NU-XrkijUgJBYrRz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-
-                        </iframe>
+                <div class="youtube-wrapper">
+                    <div class="youtube-container">
+                        <div class="youtube-inner-container">
+                            <iframe
+                                    width="100%"
+                                    height="100%"
+                                    src="https://www.youtube.com/embed/wsnh0GGxlp8?si=NU-XrkijUgJBYrRz"
+                                    title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen
+                            >
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
