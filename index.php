@@ -165,7 +165,7 @@ TODO (@knightkill)
 			</div>
 			
 			<div class="location-fixed">
-				<a target="_blank" href="https://maps.app.goo.gl/EzVRXWKG9kNnrduv6">Hyatt Place, Nilamber Triumph, Vasna, Vadodara, Gujarat 390007</a>
+				<a target="_blank" href="https://maps.app.goo.gl/KuQn6qvCsPFFyzpi9">Sir Sayajirao Nagargruh, Vadodara</a>
 			</div>
 
 			<?php include 'templates/socials.php'?>
