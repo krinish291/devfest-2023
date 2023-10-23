@@ -119,7 +119,7 @@ TODO (@knightkill)
 				<div class="event-time">
 					<div class="section">
 						<div class="hero-main-title">Welcome to DevFest Baroda 2023</div>
-						<div class="hero-title">Nov. 25</div>
+						<div class="hero-title">Nov. 26</div>
 						<div class="hero-subtitle">
                             <span>2</span>
                             <span>0</span>

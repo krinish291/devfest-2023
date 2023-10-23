@@ -87,7 +87,7 @@
 		//Countdown
 		
         $('.countdown').downCount({
-            date: '11/25/2023 10:00:00'
+            date: '11/26/2023 10:00:00'
         }, function () {
             //TODO: Add confetti on trigger
         });
