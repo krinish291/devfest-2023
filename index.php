@@ -172,7 +172,7 @@ TODO (@knightkill)
     </div>
 
     <div class="location-fixed">
-        <a target="_blank" href="https://maps.app.goo.gl/KuQn6qvCsPFFyzpi9">Sir Sayajirao Nagargruh, Vadodara</a>
+        <a target="_blank" href="https://maps.app.goo.gl/dugdPgnXV8aHLeQc7">Sayaji Hotel, Vadodara</a>
     </div>
 
     <?php include 'templates/socials.php' ?>
