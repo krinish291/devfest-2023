@@ -1,4 +1,4 @@
-<div class="col-md-3 mt-3">
+<div class="col-lg-3 col-md-4 col-sm-6 mt-3">
     <div class="blog-wrap flex-container">
         <div class="flex-grow">
             <a href="#"><img class="pro-img" src="./img/team/members/<?= htmlspecialchars(strtolower($team_member->name), ENT_QUOTES, 'UTF-8') ?>.jpg" alt="<?= htmlspecialchars($team_member->name, ENT_QUOTES, 'UTF-8') ?>"></a>

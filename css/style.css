@@ -1271,9 +1271,9 @@ ul.countdown li p {
 }
 
 .pro-img{
-	min-height: 200px;  /* or any other fixed height */
-	max-height: 200px;  /* or any other fixed height */
-	height: 200px;
+	min-height: 300px;  /* or any other fixed height */
+	max-height: 300px;  /* or any other fixed height */
+	height: 300px;
 	width: 100%;
 	object-fit: cover;
 }
@@ -1782,6 +1782,13 @@ ul.countdown li p {
 	}
 	.sponsors img {
 		width: calc(50% - 10px);
+	}
+	.pro-img{
+		min-height: 500px;  /* or any other fixed height */
+		max-height: 500px;  /* or any other fixed height */
+		height: 500px;
+		width: 100%;
+		object-fit: cover;
 	}
 }
 
