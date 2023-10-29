@@ -1263,21 +1263,24 @@ ul.countdown li p {
 	width: 100%;
 	display: block;
 	height: auto;
-	-webkit-filter: grayscale(70%);
-	filter: grayscale(70%);
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
     transition: all 200ms linear;
 	border-top-left-radius: 5.5%;
 	border-top-right-radius: 5.5% ;
 }
 
 .pro-img{
-	height: 1rem;
-	width: 1rem;
-	overflow: hidden;
+	min-height: 200px;  /* or any other fixed height */
+	max-height: 200px;  /* or any other fixed height */
+	height: 200px;
+	width: 100%;
+	object-fit: cover;
 }
+
 .blog-wrap img:hover{
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
+	-webkit-filter: grayscale(70%);
+	filter: grayscale(70%);
 }
 .blog-wrap a h6{
     transition: all 200ms linear;
@@ -1297,6 +1300,17 @@ ul.countdown li p {
 	font-size: 24px;
 	text-align: left;
     transition: all 200ms linear;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.flex-grow {
+	flex-grow: 1;
 }
 
 /* #Contact Page
