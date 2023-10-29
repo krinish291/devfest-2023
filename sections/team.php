@@ -1,13 +1,97 @@
 <?php
 $team_members = [
-    (object) ['name' => 'Akhil', 'image_name' => 'akhil.jpg'],
-    (object) ['name' => 'Chintan', 'image_name' => 'chintan.jpg'],
-    (object) ['name' => 'Hardip', 'image_name' => 'doe.jpg'],
-    (object) ['name' => 'Krinish', 'image_name' => 'doe.jpg'],
-    (object) ['name' => 'Kushal', 'image_name' => 'doe.jpg'],
-    (object) ['name' => 'Parag', 'image_name' => 'doe.jpg'],
-    (object) ['name' => 'Sarthak', 'image_name' => 'doe.jpg'],
-    (object) ['name' => 'Yuvraj', 'image_name' => 'doe.jpg'],
+    (object) [
+            'name' => 'Akhil',
+            'social' => [
+                'linkedin' => 'https://www.linkedin.com/in/tusharakhil',
+                'twitter' => 'https://twitter.com/Tusharakhil'
+            ]
+    ],
+    (object) [
+            'name' => 'Chintan',
+            'social' => [
+                    /*'github' => 'github.com',
+                    'linkedin' => 'linkedin.com',
+                    'twitter' => 'twitter.com'*/
+            ]
+    ],
+    (object) [
+        'name' => 'Dron',
+        'social' => [
+            'linkedin' => 'https://www.linkedin.com/in/drontrivedi',
+            'twitter' => 'https://twitter.com/trivedidron',
+            'instagram' => 'https://www.instagram.com/trivedidron/'
+        ]
+    ],
+    (object) [
+        'name' => 'Hardik',
+        'social' => [
+            'github' => 'https://github.com/mistryhardik',
+            'linkedin' => 'https://www.linkedin.com/in/mistryhardik05/',
+            'twitter' => 'https://twitter.com/mistryhardik05'
+        ]
+    ],
+    (object) [
+            'name' => 'Hardip',
+            'social' => [
+                    'github' => 'https://github.com/knightkill',
+                    'linkedin' => 'https://www.linkedin.com/in/patelhardip/',
+                    'twitter' => 'https://twitter.com/HardipDPatel'
+            ]
+    ],
+    (object) [
+            'name' => 'Krinish',
+            'social' => [
+                    'github' => 'https://github.com/krinish291',
+                    'linkedin' => 'https://www.linkedin.com/in/krinish-radadiya-035425190',
+                    'twitter' => 'https://twitter.com/R291Krinish'
+            ]
+    ],
+    (object) [
+            'name' => 'Kushal',
+            'social' => [
+                    'github' => 'https://github.com/kushal2011',
+                    'linkedin' => 'https://www.linkedin.com/in/kushaldave-android',
+                    'twitter' => 'https://twitter.com/that_kushal_guy'
+            ]
+    ],
+    (object) [
+            'name' => 'Parag',
+            'social' => [
+                    'linkedin' => 'https://www.linkedin.com/in/parag-nema',
+            ]
+    ],
+    (object) [
+        'name' => 'Prachi',
+        'social' => [
+            'linkedin' => 'https://www.linkedin.com/in/prachi-d-158965b',
+            'twitter' => 'https://twitter.com/PrachiSSD'
+        ]
+    ],
+    (object) [
+        'name' => 'Rahul',
+        'social' => [
+            'github' => 'https://github.com/bankerrahul',
+            'linkedin' => 'https://www.linkedin.com/in/bankerrahul/',
+            'twitter' => 'https://twitter.com/bankerrahul'
+        ]
+    ],
+    (object) [
+            'name' => 'Sarthak',
+            'social' => [
+                    'github' => 'https://github.com/Not-Sarthak',
+                    'linkedin' => 'https://www.linkedin.com/in/sarthak-shah-49267b224',
+                    'twitter' => 'https://x.com/0xSarthak13'
+            ]
+    ],
+    (object) [
+            'name' => 'Yuvraj',
+            'social' => [
+                    'github' => 'https://github.com/YuvrajAh',
+                    'linkedin' => 'https://www.linkedin.com/in/yuvraj-ahuja-144bb1228',
+                    'twitter' => 'https://x.com/AhujaYuvraj1'
+            ]
+    ],
     // Add more team members here
 ];
 
