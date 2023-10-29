@@ -10,9 +10,9 @@ $team_members = [
     (object) [
             'name' => 'Chintan',
             'social' => [
-                    /*'github' => 'github.com',
-                    'linkedin' => 'linkedin.com',
-                    'twitter' => 'twitter.com'*/
+                    'github' => 'https://github.com/jcredking',
+                    'linkedin' => 'https://www.linkedin.com/in/chintanjoshi-',
+                    'twitter' => 'https://x.com/chintanjoshi01'
             ]
     ],
     (object) [
