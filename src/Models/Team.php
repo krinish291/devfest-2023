@@ -1,14 +1,94 @@
+<?php
+
+namespace Devfest\Models;
+
+class Team
+{
+    private String $name;
+    private array $social;
+
+    public function __construct($name, $social)
+    {
+        $this->name = $name;
+        $this->social = $social;
+    }
+
+    /**
+     * @return String $name
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    /**
+     * @return array $social
+     */
+    public function getSocial()
+    {
+        return $this->social;
+    }
+
+    /**
+     * @return mixed|null
+     */
+    public function getGithub()
+    {
+        return $this->social['github'] ?? null;
+    }
+
+    /**
+     * @return mixed|null
+     */
+    public function getLinkedin()
+    {
+        return $this->social['linkedin'] ?? null;
+    }
+
+    /**
+     * @return mixed|null
+     */
+    public function getTwitter()
+    {
+        return $this->social['twitter'] ?? null;
+    }
+
+    /**
+     * @return mixed|null
+     */
+    public function getInstagram()
+    {
+        return $this->social['instagram'] ?? null;
+    }
+
+
+    public function generateHTML()
+    {
+        $name = htmlspecialchars($this->name, ENT_QUOTES, 'UTF-8');
+        $nameLower = strtolower($name);
+        $isSocial = $this->social !== null;
+        $isGithub = $this->getGithub() !== null;
+        $isLinkedIn = $this->getLinkedin() !== null;
+        $isTwitter = $this->getTwitter() !== null;
+        $isInstagram = $this->getInstagram() !== null;
+        $github = $this->getGithub();
+        $linkedin = $this->getLinkedin();
+        $twitter = $this->getTwitter();
+        $instagram = $this->getInstagram();
+
+
+        return <<<HTML
 <div class="col-lg-3 col-md-4 col-sm-6 mt-3">
     <div class="blog-wrap flex-container">
         <div class="flex-grow">
-            <img class="pro-img" src="./img/team/members/<?= htmlspecialchars(strtolower($team_member->getName()), ENT_QUOTES, 'UTF-8') ?>.jpg" alt="<?= htmlspecialchars($team_member->name, ENT_QUOTES, 'UTF-8') ?>">
+            <img class="pro-img" src="./img/team/members/{$nameLower}.jpg" alt="{$name}">
             <p class="px-4 pt-4 mb-1"><small></small></p>
         </div>
-        <a href="#"><h6 class="px-4 mb-3"><?= htmlspecialchars($team_member->name, ENT_QUOTES, 'UTF-8') ?></h6></a>
+        <a href="#"><h6 class="px-4 mb-3">{$name}</h6></a>
         <h6 class="px-4 mb-3">
-            <?php if ($team_member->getSocial() !== null): ?>
-                <?php if ($team_member->getGithub() !== null): ?>
-                    <a href="<?= $team_member->getGithub() ?>" target="_blank">
+            <?php if ($isSocial): ?>
+                <?php if ($isGithub): ?>
+                    <a href="{$github}" target="_blank">
                             <i class="bi bi-github mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                      fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -17,8 +97,8 @@
                             </i>
                     </a>
                 <?php endif; ?>
-                <?php if ($team_member->getLinkedIn() !== null): ?>
-                    <a href="<?= $team_member->getLinkedIn() ?>" target="_blank">
+                <?php if ($isLinkedIn): ?>
+                    <a href="{$linkedin}" target="_blank">
                         <i class="bi bi-linkedin mr-2">
                             <svg xmlns="http://www.w3.org/2000/svg"
                                  x="0px" y="0px"
@@ -31,8 +111,8 @@
                         </i>
                     </a>
                 <?php endif; ?>
-                <?php if ($team_member->getTwitter() !== null): ?>
-                    <a href="<?= $team_member->getTwitter() ?>" target="_blank">
+                <?php if ($isTwitter): ?>
+                    <a href="{$twitter}" target="_blank">
                             <i class="bi bi-twitter mr-2">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                      fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
@@ -41,8 +121,8 @@
                             </i>
                     </a>
                 <?php endif; ?>
-                <?php if ($team_member->getInstagram() !== null): ?>
-                    <a href="<?= $team_member->getInstagram() ?>" target="_blank">
+                <?php if ($isInstagram): ?>
+                    <a href="{$instagram}" target="_blank">
                         <i class="bi bi-instagram mr-2">
                             <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -60,3 +140,6 @@
         </h6>
     </div>
 </div>
+HTML;
+    }
+}
