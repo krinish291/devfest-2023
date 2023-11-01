@@ -98,12 +98,12 @@ TODO (@knightkill)
         </div>
     </a>
 
-    <a href="#ticket-wrap" class="ticket-link">
+    <a href="#ticket-wrap" class="ticket-link hidden">
         <div class="ticket-button">
             <p>Secure Seats!</p>
         </div>
     </a>
-    <div id="ticket-wrap">
+    <div id="ticket-wrap" class="hidden">
         <p>
             Early Birds <em>.........................</em> <span>500 ₹</span><br>
             Phase 1 <em>.....................</em> <span>600 ₹</span><br>
@@ -119,7 +119,7 @@ TODO (@knightkill)
                 <div class="empty-space">-</div>
                 speakers</a>
             <a href="#" class="menu__item">Rewind</a>
-            <a href="#" class="menu__item">Sponsor</a>
+            <!--<a href="#" class="menu__item">Sponsor</a>-->
             <a href="#" class="menu__item">Schedule</a>
             <a href="#" class="menu__item">Team</a>
         </nav>
@@ -166,7 +166,7 @@ TODO (@knightkill)
         <button class="content__close"> </button>
         <?php include 'sections/speakers.php' ?>
         <?php include "sections/rewind.php" ?>
-        <?php include "sections/sponsors.php" ?>
+        <?php /*include "sections/sponsors.php" */?>
         <?php include "sections/schedule.php" ?>
         <?php include "sections/team.php" ?>
     </div>
