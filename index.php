@@ -155,7 +155,7 @@ TODO (@knightkill)
                 </li>
             </ul>
             <div class="speaker-btn">
-                <a target="_blank" class="btn btn-dark" href="https://sessionize.com/">Apply to be a Speaker!</a>
+                <a target="_blank" class="btn btn-dark" href="https://sessionize.com/devfestbaroda23">Apply to be a Speaker!</a>
             </div>
         </div>
         <?php include "templates/scene.php" ?>
