@@ -14,7 +14,7 @@
 			timeout = setTimeout(later, wait);
 			if (callNow) func.apply(context, args);
 		};
-    };
+    }
 
     class Blob {
         constructor(el, options) {
@@ -110,7 +110,7 @@
         show() {
             setTimeout(() => this.intro(), 400);
         }
-    };
+    }
 
     window.Blob = Blob;
 
@@ -155,6 +155,13 @@
 
     DOM.ctrlBack.addEventListener('click', () => close());
 
+    window.addEventListener('popstate', function(event) {
+        if (this.isOpen) {
+            event.preventDefault();
+            close();
+        }
+    });
+
     let current;
     const open = (pos) => {
         this.isOpen = true;
@@ -185,7 +192,7 @@
                 opacity: [0,1]
             });
         });
-
+        document.querySelector('.event-time').style.zIndex = 1;
         blobs.filter(el => el != currentBlob).forEach(blob => blob.hide());
     };
 
@@ -220,6 +227,7 @@
                     link.classList.add('menu__item--showDeco');
                 })
             });
+            document.querySelector('.event-time').style.zIndex = 10;
         });
         blobs.filter(el => el != blobs[current]).forEach(blob => blob.show());
     };
@@ -238,20 +246,6 @@
 		ev.preventDefault();
 		navigate(ev.target);
 	}));
-	document.addEventListener('keydown', (ev) => {
-		const keyCode = ev.keyCode || ev.which;
-		let linkEl;
-		if ( keyCode === 37 ) {
-			linkEl = current > 0 ? navdemos[current-1] : navdemos[total-1];
-		}
-		else if ( keyCode === 39 ) {
-			linkEl = current < total-1 ? navdemos[current+1] : navdemos[0];
-		}
-		else {
-			return false;
-		}
-		navigate(linkEl);
-	});
 }
 
 
