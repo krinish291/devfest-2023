@@ -1,4 +1,9 @@
 {
   "name": "gdgbaroda/devfest-2023",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Devfest\\": "src/"
+    }
+  }
 }
